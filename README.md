@@ -24,6 +24,6 @@ A stylish and colorful Command-Line Weather Application** built with **Node.js**
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/nexa-weather-cli.git
-   cd nexa-weather-cli
+   git clone https://github.com/yourusername/weather-cli.git
+   cd weather-cli
    ```
