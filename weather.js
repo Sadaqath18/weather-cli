@@ -56,8 +56,6 @@ ${chalk.bold(`${icon}  Weather:`)} ${chalk.green(description)}`;
         backgroundColor: "#1e1e1e",
       })
     );
-    console.log("Hello from Branch A!");
-    console.log("Hello from branch B!");
   } catch (error) {
     console.log(chalk.red("❌ Error fetching weather data."));
   }
