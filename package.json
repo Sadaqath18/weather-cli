@@ -1,6 +1,6 @@
 {
   "name": "weather-cli-sadaqath",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A colorful CLI tool to check real-time weather with icons using OpenWeatherMap API.",
   "type": "module",
   "main": "weather.js",
