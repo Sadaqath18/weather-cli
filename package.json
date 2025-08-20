@@ -1,27 +1,41 @@
 {
-  "name": "weather-cli",
+  "name": "weather-cli-sadaqath",
   "version": "1.0.0",
-  "description": "A colorful CLI tool to check real-time weather with icons using OpenWeatherMap API",
+  "description": "A colorful CLI tool to check real-time weather with icons using OpenWeatherMap API.",
+  "type": "module",
   "main": "weather.js",
+  "bin": {
+    "weather": "./weather.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node weather.js",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "keywords": [
     "weather",
     "cli",
-    "nodejs",
+    "node",
     "openweathermap",
     "boxen",
-    "chalk"
+    "chalk",
+    "axios"
   ],
-  "author": "S Sadaqath Ulla Qureshi",
-  "license": "ISC",
+  "author": {
+    "name": "S Sadaqath Ulla Qureshi"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/weather-cli-sadaqath.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/weather-cli-sadaqath/issues"
+  },
+  "homepage": "https://github.com/your-username/weather-cli-sadaqath#readme",
   "dependencies": {
     "axios": "^1.11.0",
     "boxen": "^8.0.1",
     "chalk": "^5.5.0",
-    "dotenv": "^17.2.1",
-    "express": "^5.1.0",
-    "node-fetch": "^3.3.2"
+    "dotenv": "^16.4.5"
   }
 }

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import axios from "axios";
 import chalk from "chalk";
 import boxen from "boxen";
@@ -56,7 +58,7 @@ ${chalk.bold(`${icon}  Weather:`)} ${chalk.green(description)}`;
         backgroundColor: "#1e1e1e",
       })
     );
-    console.log(chalk.green("✅ Weather data fetched successfully!"));
+    console.log("Temporary debug line");
   } catch (error) {
     console.log(chalk.red("❌ Error fetching weather data."));
   }
