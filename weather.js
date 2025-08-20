@@ -58,7 +58,6 @@ ${chalk.bold(`${icon}  Weather:`)} ${chalk.green(description)}`;
         backgroundColor: "#1e1e1e",
       })
     );
-    console.log("Temporary debug line");
   } catch (error) {
     console.log(chalk.red("❌ Error fetching weather data."));
   }

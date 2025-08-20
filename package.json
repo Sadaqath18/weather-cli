@@ -5,7 +5,7 @@
   "type": "module",
   "main": "weather.js",
   "bin": {
-    "weather": "./weather.js"
+    "weather": "weather.js"
   },
   "scripts": {
     "start": "node weather.js",
